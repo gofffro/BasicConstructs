@@ -19,14 +19,14 @@ public class NewEmptyCSharpScript : MonoBehaviour
 
   void Start()
   {
-    Debug.Log("Четные числа до 6: ");
+    Debug.Log("Р§РµС‚РЅС‹Рµ С‡РёСЃР»Р° РґРѕ 6: ");
     for (int indexList = 0; indexList < evenNumbersArray.Count; ++indexList)
     {
       Debug.Log(evenNumbersArray[indexList]);
     }
-    Debug.Log($"Земля круглая? - {earthIsRound}");
+    Debug.Log($"Р—РµРјР»СЏ РєСЂСѓРіР»Р°СЏ? - {earthIsRound}");
 
-    Debug.Log("Просто числа от 1 до 3: ");
+    Debug.Log("РџСЂРѕСЃС‚Рѕ С‡РёСЃР»Р° РѕС‚ 1 РґРѕ 3: ");
     for (int indexList = 0; indexList < numbersArrray.Length; ++indexList)
     {
       Debug.Log(evenNumbersArray[indexList]);
@@ -34,12 +34,11 @@ public class NewEmptyCSharpScript : MonoBehaviour
 
     foreach (var item in anotherNumbers)
     {
-      Debug.Log($"Ключ: {item.Key}, Значение: {item.Value}");
+      Debug.Log($"РљР»СЋС‡: {item.Key}, Р—РЅР°С‡РµРЅРёРµ: {item.Value}");
     }
 
     Debug.Log(someIntValue);
     Debug.Log(nameProject);
     Debug.Log(someFloatValue);
   }
-  текст
  }
