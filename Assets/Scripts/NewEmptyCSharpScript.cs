@@ -13,6 +13,10 @@ public class NewEmptyCSharpScript
     {4, "four"}
   };
   int someIntValue = 5;
+  string nameProject = "BasicConstructs";
   float someFloatValue = 3.14f;
+  bool earthIsRound = true;
+
+
 
  }
