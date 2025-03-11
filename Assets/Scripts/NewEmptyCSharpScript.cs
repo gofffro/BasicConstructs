@@ -41,5 +41,4 @@ public class NewEmptyCSharpScript : MonoBehaviour
     Debug.Log(nameProject);
     Debug.Log(someFloatValue);
   }
-
  }
