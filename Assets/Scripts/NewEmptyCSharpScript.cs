@@ -25,20 +25,5 @@ public class NewEmptyCSharpScript : MonoBehaviour
       Debug.Log(evenNumbersArray[indexList]);
     }
     Debug.Log($"Земля круглая? - {earthIsRound}");
-
-    Debug.Log("Просто числа от 1 до 3: ");
-    for (int indexList = 0; indexList < numbersArrray.Length; ++indexList)
-    {
-      Debug.Log(evenNumbersArray[indexList]);
-    }
-
-    foreach (var item in anotherNumbers)
-    {
-      Debug.Log($"Ключ: {item.Key}, Значение: {item.Value}");
-    }
-
-    Debug.Log(someIntValue);
-    Debug.Log(nameProject);
-    Debug.Log(someFloatValue);
   }
  }
